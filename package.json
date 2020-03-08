@@ -1,0 +1,31 @@
+{
+  "name": "tiptap-build",
+  "version": "0.1.0",
+  "description": "This is a build of tiptap, tiptap-commands and tiptap-extensions to use from cdn",
+  "main": "dist/index.js",
+  "jsdelivr": "dist/index.js",
+  "scripts": {
+    "test": "echo Open ./index.html in your browser!",
+    "build": "parcel build index.js -d dist --no-source-maps --no-cache --experimental-scope-hoisting"
+  },
+  "keywords": [
+    "tiptap",
+    "build",
+    "cdn",
+    "vue",
+    "bundle"
+  ],
+  "author": "zakariamouhid",
+  "license": "MIT",
+  "dependencies": {},
+  "alias": {
+    "vue": "/alias/vue"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "tiptap": "^1.26.6",
+    "tiptap-commands": "^1.12.5",
+    "tiptap-extensions": "^1.28.6",
+    "tiptap-utils": "^1.8.3"
+  }
+}
