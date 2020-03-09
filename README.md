@@ -10,3 +10,7 @@ This is a build of tiptap, tiptap-utils, tiptap-commands and tiptap-extensions t
 ```
 
 > note: you should specify version in production version
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/zakariamouhid/tiptap-build@0.1.0/dist/index.js"></script>
+```
